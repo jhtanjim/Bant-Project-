@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>youth empoowement</title>
+</head>
+
+
+
+
+<body>
+
+    <!-- nav start -->
+    <nav class="h-20 bg-[#F0FBF7]">
+        <div class="max-w-screen-2xl lg:mx-auto flex justify-between items-center px-4 py-4">
+            <a href="/index.html"> <img class="h-12" src="./image/logo-icon.png" alt="Logo">
+            </a>
+            <!-- Hamburger menu button (visible on mobile) -->
+            <div class="lg:hidden">
+                <button id="menu-btn" class="text-[#006A51] focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Navigation links -->
+            <div id="menu"
+                class="hidden lg:flex flex-col lg:flex-row lg:items-center lg:justify-around gap-4 py-4 w-full lg:w-auto">
+                <a class="font-bold text-lg opacity-70" href="/celebratestories.html">celebrate our story</a>
+                <a class="mx-5 font-bold text-lg opacity-70" href="/executivemember.html">executive members</a>
+                <a class="mx-5 font-bold text-lg opacity-70" href="./youthempowerment.html">Youth Empowerment</a>
+                <a class="mx-5 font-bold text-lg opacity-70" href="./upcomingcelebration.html">upcoming
+                    celebrations</a>
+            </div>
+
+            <!-- Join button (always visible) -->
+            <div class="hidden lg:block">
+                <a href="/joincommunity.html"><button class="bg-[#006A51] font-bold text-white px-4 py-2 rounded">Join
+                        The Best Community</button></a>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="lg:hidden flex flex-col items-center bg-[#F0FBF7] hidden">
+            <a class="font-bold text-lg opacity-70 py-2" href="./celebratestories.html">celebrate our story</a>
+            <a class="font-bold text-lg opacity-70 py-2" href="/executivemember.html">executive members</a>
+            <a class="font-bold text-lg opacity-70 py-2" href="./youthempowerment.html">Youth Empowerment</a>
+            <a class="font-bold text-lg opacity-70 py-2" href="./upcomingcelebration.html">upcoming celebrations</a>
+            <button class="bg-[#006A51] font-bold text-white px-4 py-2 rounded mt-2">Join The Best
+                Community</button>
+        </div>
+    </nav>
+    <!-- nav end -->
+    <!-- celebration stories start -->
+    <div class="flex flex-wrap gap-4 max-w-4xl mx-auto justify-center items-center my-8">
+        <button
+            class="px-4 py-2 uppercase font-bold rounded-md border-2 text-xs bg-[#006A51] text-white border-[#006A51]">all</button>
+        <button
+            class="px-4 py-2 uppercase font-bold rounded-md border-2 text-xs text-[#006A51] border-[#006A51]">cultural</button>
+        <button
+            class="px-4 py-2 uppercase font-bold rounded-md border-2 text-xs text-[#006A51] border-[#006A51]">service</button>
+        <button
+            class="px-4 py-2 uppercase font-bold rounded-md border-2 text-xs text-[#006A51] border-[#006A51]">social</button>
+        <button
+            class="px-4 py-2 uppercase font-bold rounded-md border-2 text-xs text-[#006A51] border-[#006A51]">community</button>
+        <button
+            class="px-4 py-2 uppercase font-bold rounded-md border-2 text-xs text-[#006A51] border-[#006A51]">relief</button>
+        <button
+            class="px-4 py-2 uppercase font-bold rounded-md border-2 text-xs text-[#006A51] border-[#006A51]">health</button>
+    </div>
+
+    <!-- card -->
+    <div class="grid grid-cols-1 max-w-screen-xl lg:mx-auto mx-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="shadow-lg overflow-hidden w-full my-8">
+            <div class="relative w-full aspect-square">
+                <img alt="example" loading="lazy" decoding="async"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdjf0RpiCA9iomHdOBbCpdnPpF_52n_oM9w&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdjf0RpiCA9iomHdOBbCpdnPpF_52n_oM9w&s"
+                    class="absolute h-full w-full inset-0 object-cover" />
+                <div
+                    class="absolute bottom-4 right-2 py-2 px-4 text-xs font-bold bg-black/50 text-white tracking-wider uppercase rounded-lg">
+                    cultural
+                </div>
+            </div>
+            <div class="p-4 space-y-2 bg-[#F0FBF7] text-center">
+                <div class="font-black uppercase">Lorem ipsum dolor sit amet.</div>
+                <div class="text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+                    nulla!</div>
+            </div>
+        </div>
+        <div class="shadow-lg overflow-hidden w-full my-8">
+            <div class="relative w-full aspect-square">
+                <img alt="example" loading="lazy" decoding="async"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdjf0RpiCA9iomHdOBbCpdnPpF_52n_oM9w&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdjf0RpiCA9iomHdOBbCpdnPpF_52n_oM9w&s"
+                    class="absolute h-full w-full inset-0 object-cover" />
+                <div
+                    class="absolute bottom-4 right-2 py-2 px-4 text-xs font-bold bg-black/50 text-white tracking-wider uppercase rounded-lg">
+                    cultural
+                </div>
+            </div>
+            <div class="p-4 space-y-2 bg-[#F0FBF7] text-center">
+                <div class="font-black uppercase">Lorem ipsum dolor sit amet.</div>
+                <div class="text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+                    nulla!</div>
+            </div>
+        </div>
+        <div class="shadow-lg overflow-hidden w-full my-8">
+            <div class="relative w-full aspect-square">
+                <img alt="example" loading="lazy" decoding="async"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdjf0RpiCA9iomHdOBbCpdnPpF_52n_oM9w&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdjf0RpiCA9iomHdOBbCpdnPpF_52n_oM9w&s"
+                    class="absolute h-full w-full inset-0 object-cover" />
+                <div
+                    class="absolute bottom-4 right-2 py-2 px-4 text-xs font-bold bg-black/50 text-white tracking-wider uppercase rounded-lg">
+                    cultural
+                </div>
+            </div>
+            <div class="p-4 space-y-2 bg-[#F0FBF7] text-center">
+                <div class="font-black uppercase">Lorem ipsum dolor sit amet.</div>
+                <div class="text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+                    nulla!</div>
+            </div>
+        </div>
+        <div class="shadow-lg overflow-hidden w-full my-8">
+            <div class="relative w-full aspect-square">
+                <img alt="example" loading="lazy" decoding="async"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdjf0RpiCA9iomHdOBbCpdnPpF_52n_oM9w&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdjf0RpiCA9iomHdOBbCpdnPpF_52n_oM9w&s"
+                    class="absolute h-full w-full inset-0 object-cover" />
+                <div
+                    class="absolute bottom-4 right-2 py-2 px-4 text-xs font-bold bg-black/50 text-white tracking-wider uppercase rounded-lg">
+                    cultural
+                </div>
+            </div>
+            <div class="p-4 space-y-2 bg-[#F0FBF7] text-center">
+                <div class="font-black uppercase">Lorem ipsum dolor sit amet.</div>
+                <div class="text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+                    nulla!</div>
+            </div>
+        </div>
+        <div class="shadow-lg overflow-hidden w-full my-8">
+            <div class="relative w-full aspect-square">
+                <img alt="example" loading="lazy" decoding="async"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdjf0RpiCA9iomHdOBbCpdnPpF_52n_oM9w&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdjf0RpiCA9iomHdOBbCpdnPpF_52n_oM9w&s"
+                    class="absolute h-full w-full inset-0 object-cover" />
+                <div
+                    class="absolute bottom-4 right-2 py-2 px-4 text-xs font-bold bg-black/50 text-white tracking-wider uppercase rounded-lg">
+                    cultural
+                </div>
+            </div>
+            <div class="p-4 space-y-2 bg-[#F0FBF7] text-center">
+                <div class="font-black uppercase">Lorem ipsum dolor sit amet.</div>
+                <div class="text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+                    nulla!</div>
+            </div>
+        </div>
+        <div class="shadow-lg overflow-hidden w-full my-8">
+            <div class="relative w-full aspect-square">
+                <img alt="example" loading="lazy" decoding="async"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdjf0RpiCA9iomHdOBbCpdnPpF_52n_oM9w&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdjf0RpiCA9iomHdOBbCpdnPpF_52n_oM9w&s"
+                    class="absolute h-full w-full inset-0 object-cover" />
+                <div
+                    class="absolute bottom-4 right-2 py-2 px-4 text-xs font-bold bg-black/50 text-white tracking-wider uppercase rounded-lg">
+                    cultural
+                </div>
+            </div>
+            <div class="p-4 space-y-2 bg-[#F0FBF7] text-center">
+                <div class="font-black uppercase">Lorem ipsum dolor sit amet.</div>
+                <div class="text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+                    nulla!</div>
+            </div>
+        </div>
+        <!-- Repeat similar blocks for other cards -->
+    </div>
+
+    <!-- card -->
+
+
+    <!-- celebration stories end -->
+
+
+
+
+
+
+
+    <!-- footer start -->
+    <div class="bg-[#F0FBF7] py-8 border-b-2 border-[#F1FDF9]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row justify-between items-center gap-4">
+                <!-- Logo -->
+                <div class="w-40 h-12 relative">
+                    <img src="./image/logo-icon.png" alt="bant-logo" class="w-full h-full object-contain">
+                </div>
+                <!-- Navigation Links -->
+                <div class="flex text-sm font-bold text-gray-600 capitalize gap-4">
+                    <div class="hover:text-black cursor-pointer">link 1</div>
+                    <div class="hover:text-black cursor-pointer">link 2</div>
+                    <div class="hover:text-black cursor-pointer">link 3</div>
+                </div>
+                <!-- Icons Section -->
+                <div class="flex gap-4">
+                    <div class="w-10 h-10 rounded-full bg-slate-500"></div>
+                    <div class="w-10 h-10 rounded-full bg-slate-500"></div>
+                    <div class="w-10 h-10 rounded-full bg-slate-500"></div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center font-semibold  opacity-70">copywrite by Bant-2024
+        </p>
+    </div>
+
+    <!-- footer end -->
+
+
+
+    <script>
+        // Toggle mobile menu
+        const menuBtn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>

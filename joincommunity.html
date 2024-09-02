@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>youth empoowement</title>
+</head>
+
+<body>
+    <!-- nav start -->
+    <nav class="h-20 bg-[#F0FBF7]">
+        <div class="max-w-screen-2xl lg:mx-auto flex justify-between items-center px-4 py-4">
+            <a href="/index.html"> <img class="h-12" src="./image/logo-icon.png" alt="Logo">
+            </a>
+            <!-- Hamburger menu button (visible on mobile) -->
+            <div class="lg:hidden">
+                <button id="menu-btn" class="text-[#006A51] focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Navigation links -->
+            <div id="menu"
+                class="hidden lg:flex flex-col lg:flex-row lg:items-center lg:justify-around gap-4 py-4 w-full lg:w-auto">
+                <a class="font-bold text-lg opacity-70" href="/celebratestories.html">celebrate our story</a>
+                <a class="mx-5 font-bold text-lg opacity-70" href="/executivemember.html">executive members</a>
+                <a class="mx-5 font-bold text-lg opacity-70" href="./youthempowerment.html">Youth Empowerment</a>
+                <a class="mx-5 font-bold text-lg opacity-70" href="./upcomingcelebration.html">upcoming
+                    celebrations</a>
+            </div>
+
+            <!-- Join button (always visible) -->
+            <div class="hidden lg:block">
+                <button class="bg-[#006A51] font-bold text-white px-4 py-2 rounded">Join The Best Community</button>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="lg:hidden flex flex-col items-center bg-[#F0FBF7] hidden">
+            <a class="font-bold text-lg opacity-70 py-2" href="./celebratestories.html">celebrate our story</a>
+            <a class="font-bold text-lg opacity-70 py-2" href="/executivemember.html">executive members</a>
+            <a class="font-bold text-lg opacity-70 py-2" href="./youthempowerment.html">Youth Empowerment</a>
+            <a class="font-bold text-lg opacity-70 py-2" href="./upcomingcelebration.html">upcoming celebrations</a>
+            <button class="bg-[#006A51] font-bold text-white px-4 py-2 rounded mt-2">Join The Best
+                Community</button>
+        </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- form start -->
+
+    <form class="max-w-md mx-auto p-8 flex flex-col space-y-8">
+        <h3 class="text-4xl font-extrabold text-[#006A51] mb-5">Join Us</h3>
+
+        <ul class="grid grid-cols-3 w-full md:grid-cols-3 gap-2">
+            <li>
+                <input id="member" class="hidden peer" type="radio" value="member" name="roleName" required>
+                <label for="member"
+                    class="w-full py-2 px-5 border border-gray-200 shadow text-gray-600 text-center cursor-pointer peer-checked:bg-[#006a4e] peer-checked:text-white transition-all duration-300">
+                    <span class="capitalize text-sm font-bold">Member</span>
+                </label>
+            </li>
+            <li>
+                <input id="sponsor" class="hidden peer" type="radio" value="sponsor" name="roleName" required>
+                <label for="sponsor"
+                    class="w-full py-2 px-5 border border-gray-200 shadow text-gray-600 text-center cursor-pointer peer-checked:bg-[#006a4e] peer-checked:text-white transition-all duration-300">
+                    <span class="capitalize text-sm font-bold">Sponsor</span>
+                </label>
+            </li>
+            <li>
+                <input id="partner" class="hidden peer" type="radio" value="partner" name="roleName" required>
+                <label for="partner"
+                    class="w-full py-2 px-5 border border-gray-200 shadow text-gray-600 text-center cursor-pointer peer-checked:bg-[#006a4e] peer-checked:text-white transition-all duration-300">
+                    <span class="capitalize text-sm font-bold">Youth</span>
+                </label>
+            </li>
+        </ul>
+
+        <div class="relative z-0 w-full mb-5">
+            <input id="floating_email"
+                class="block w-full py-2.5 bg-transparent border-b-2 border-gray-600 appearance-none focus:border-[#006A51] focus:outline-none"
+                placeholder=" " type="email" name="floating_email" required>
+            <label for="floating_email"
+                class="absolute text-lg text-gray-500 transition-all transform scale-75 -translate-y-8 top-3 origin-[0] peer-focus:text-[#006A51] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-10">Email
+                address</label>
+        </div>
+
+
+
+
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="relative z-0 w-full mb-5">
+                <input id="floating_first_name"
+                    class="block w-full py-2.5 bg-transparent border-b-2 border-gray-600 appearance-none focus:border-[#006A51] focus:outline-none"
+                    placeholder=" " type="text" name="floating_first_name" required>
+                <label for="floating_first_name"
+                    class="absolute text-lg text-gray-400 transition-all transform scale-75 -translate-y-8 top-3 origin-[0] peer-focus:text-[#006A51] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-10">First
+                    name</label>
+            </div>
+            <div class="relative z-0 w-full mb-5">
+                <input id="floating_last_name"
+                    class="block w-full py-2.5 bg-transparent border-b-2 border-gray-600 appearance-none focus:border-[#006A51] focus:outline-none"
+                    placeholder=" " type="text" name="floating_last_name" required>
+                <label for="floating_last_name"
+                    class="absolute text-lg text-gray-400 transition-all transform scale-75 -translate-y-8 top-3 origin-[0] peer-focus:text-[#006A51] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-10">Last
+                    name</label>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="relative z-0 w-full mb-5">
+                <input id="floating_phone"
+                    class="block w-full py-2.5 bg-transparent border-b-2 border-gray-600 appearance-none focus:border-[#006A51] focus:outline-none"
+                    placeholder=" " type="tel" name="floating_phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <label for="floating_phone"
+                    class="absolute text-lg text-gray-400 transition-all transform scale-75 -translate-y-8 top-3 origin-[0] peer-focus:text-[#006A51] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-10">Phone
+                    number</label>
+            </div>
+            <div class="relative z-0 w-full mb-5">
+                <input id="floating_company"
+                    class="block w-full py-2.5 bg-transparent border-b-2 border-gray-600 appearance-none focus:border-[#006A51] focus:outline-none"
+                    placeholder=" " type="text" name="floating_company" required>
+                <label for="floating_company"
+                    class="absolute text-lg text-gray-400 transition-all transform scale-75 -translate-y-8 top-3 origin-[0] peer-focus:text-[#006A51] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-10">Company
+                    (Ex. Google)</label>
+            </div>
+        </div>
+
+        <button type="submit"
+            class="bg-gray-100 text-sm font-bold w-full py-2.5 rounded-lg text-center hover:bg-[#006A51] hover:text-[#006A51] focus:ring-4 focus:outline-none focus:ring-[#006A51] transition-all duration-300">Submit</button>
+    </form>
+
+    <!-- form end -->
+
+
+
+
+
+
+    <!-- footer start -->
+    <div class="bg-[#F0FBF7] py-8 border-b-2 border-[#F1FDF9]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row justify-between items-center gap-4">
+                <!-- Logo -->
+                <div class="w-40 h-12 relative">
+                    <img src="./image/logo-icon.png" alt="bant-logo" class="w-full h-full object-contain">
+                </div>
+                <!-- Navigation Links -->
+                <div class="flex text-sm font-bold text-gray-600 capitalize gap-4">
+                    <div class="hover:text-black cursor-pointer">link 1</div>
+                    <div class="hover:text-black cursor-pointer">link 2</div>
+                    <div class="hover:text-black cursor-pointer">link 3</div>
+                </div>
+                <!-- Icons Section -->
+                <div class="flex gap-4">
+                    <div class="w-10 h-10 rounded-full bg-slate-500"></div>
+                    <div class="w-10 h-10 rounded-full bg-slate-500"></div>
+                    <div class="w-10 h-10 rounded-full bg-slate-500"></div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center font-semibold  opacity-70">copywrite by Bant-2024
+        </p>
+    </div>
+
+    <!-- footer end -->
+
+
+
+    <script>
+        // Toggle mobile menu
+        const menuBtn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
