@@ -728,7 +728,7 @@ video {
   max-width: 1536px;
 }
 
-.max-w-screen-xl {
+.max-w-screen-xl mx-4 {
   max-width: 1280px;
 }
 
